@@ -22,7 +22,9 @@ const char* ssid = "Keenetic-1540";
 const char* password = "TkJJxhKK";
 //const char* ssid = "l40_1";
 //const char* password = "s072A21T";
+IPAddress local_IP(10,101,0,130);
 // Настройки MQTT-сервера
+const char* mqtt_server = "10.101.0.5"; // pi mob  ThingsBoard
 //const char* mqtt_server = "193.232.208.60"; // pi mob  ThingsBoard
 const char* mqtt_server = "192.168.138.75"; // pi mob teplocentr
 const char* access_token = "arseniy8"; // токен устройства на ThingsBoard
